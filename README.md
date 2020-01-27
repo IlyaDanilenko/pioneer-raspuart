@@ -1,6 +1,8 @@
 # Pioneer-RaspUART
 Geoscan Pioneer with Raspberry Pi Tutorial
 
+### Подготовка
+
 Для работы с интерфейсом UART на Raspberry установите библиотеку PySerial
 
 ```
