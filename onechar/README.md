@@ -22,7 +22,7 @@ sleep(tm) # tm - время синхронизации
 :heavy_exclamation_mark: __ВАЖНО__: Буфер Pioneer при слишком интенсивной отправке пакетов переполняется
 
 В папке [Python](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/onechar/Python):
-* [hello_raspberry_base.py](https://github.com/IlyaDanilenko/pioneer-raspuart/blob/master/onechar/Python/hello_raspberry_base.py) - базовый (не оптимизированный) пример, советуем ознакомится с ним в первую очередь
+* [hello_raspberry_base.py](https://github.com/IlyaDanilenko/pioneer-raspuart/blob/master/onechar/Python/hello_raspberry_base.py) - базовый (не оптимизированный) пример, советуем ознакомиться с ним в первую очередь
 * [hello_raspberry_optim.py](https://github.com/IlyaDanilenko/pioneer-raspuart/blob/master/onechar/Python/hello_raspberry_optim.py) - продвинутый (оптимизированный) пример, предлагаем один из вариантов решение проблемы переполнения буфера на стороне Raspberry
 
 ### Теория Lua
