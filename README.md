@@ -12,6 +12,7 @@ pip3 install pyserial
 :heavy_exclamation_mark: ВАЖНО: перед тем как начать использовать UART настройте пины на Raspberry ( [Гайд](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/) все пункты кроме "Disabling the Console" )
 
 ### Описание репозитория
-* onechar - примеры и объяснение передачи одного символа
+* [onechar](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/onechar) - примеры и объяснение передачи одного символа
+* [bigdata](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/bigdata) - примеры и объяснения передачи множества данных
 
 ##### @ With Love for Geoscan Pioneer Community
