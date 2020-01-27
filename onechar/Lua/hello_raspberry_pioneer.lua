@@ -1,13 +1,13 @@
 local uartNum = 1 --Номер UART
 local baudRate = 9600  -- скорость передачи данных
-local stopBits = 1 -- �������� ��������� � �������� �����
-local parity = Uart.PARITY_NONE -- �������� �� ��������
+local stopBits = 1 -- Удаление стартовых и стоповых битов
+local parity = Uart.PARITY_NONE -- Проверка на чётность
 local uart = Uart.new(uartNum, baudRate, parity, stopBits) -- создание протокола обмена
 
 
-local leds=Ledbar.new(4) -- ������ LedBar, ���� ���������� ������������ �� �����
+local leds=Ledbar.new(4) -- объект LedBar, порт управления светодиодами на плате
 
-local function color(r,g,b) --Функция зажигания всех светодиодов определенным цветом
+local function color(r,g,b) -- функция заливки всех светодиодов одним цветом
     for i=0,3,1 do
         leds:set(i,r,g,b)
     end
@@ -29,9 +29,9 @@ end
 
 
 
-function callback(event) --������������ �������
+function callback(event) -- обязательная функция
 end
 
-t = Timer.new(sync, takeFunc) --������, ��������� ������� takeFunc ������ sync ������
+t = Timer.new(sync, takeFunc) -- таймер, запускает функцию takeFunc каждые sync секунд
 color(0,0,0) 
 t:start()
