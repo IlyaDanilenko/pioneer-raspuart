@@ -2,6 +2,7 @@
 Geoscan Pioneer with Raspberry Pi Tutorial
 
 ### Подготовка Raspberry
+Данный гайд написан для интерфейса UART на портах GPIO14(TX) и GPIO15(RX), возможно использование и USB портов со специальным переходником usb->uart
 
 Для работы с интерфейсом UART на Raspberry установите библиотеку PySerial
 
