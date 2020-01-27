@@ -15,11 +15,11 @@ pip3 install pyserial
 
 Перед подключением важно определиться с используемым UART
 
-Убедитесь, что планируемый для использования UART не занят другими устройствами.
+Убедитесь, что планируемый для использования UART [не занят](https://pioneer-doc.readthedocs.io/ru/master/programming/lua/lua.html#id7) другими устройствами.
 
 __UART1__ на разъеме __X1__ занят, если вы используете:
-* Модуль GPS
-* Систему навигации в помещении Локус
+* Модуль [GPS](https://www.geoscan.aero/themes/geoscan/assets/products/tabs/pioneer/manual/module/gps.html)
+* Систему навигации в помещении [Локус](https://www.geoscan.aero/themes/geoscan/assets/products/tabs/pioneer/manual/indoor_nav.html)
 
 Тогда следует воспользоваться __UART4__
 ![Пример подключения UART4 к Raspberry Pi](/imgs/uart4.png)
@@ -31,7 +31,7 @@ RX (09) | TX (Разъем X2, пин 3)
 GND | GND
 
 __UART4__ на разъеме __X4__ занят, если вы используете:
-* Камеру OpenMV
+* Камеру [OpenMV](https://www.geoscan.aero/themes/geoscan/assets/products/tabs/pioneer/manual/module/openMV.html)
 
 Тогда следует воспользоваться __UART1__
 ![Пример подключения UART4 к Raspberry Pi](/imgs/uart1.png)
