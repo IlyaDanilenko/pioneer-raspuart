@@ -43,7 +43,7 @@ RX (09) | TX (Разъем X1, пин 6)
 GND | GND
 
 ### Описание репозитория
-* [onechar](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/onechar) - примеры и объяснение передачи одного символа, советуем ознакомиться сначало с этим материалом
-* [bigdata](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/bigdata) - примеры и объяснения передачи множества данных
+* [examples](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/examples) - примеры и объяснение передачи данных
+* [imgs](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/imgs) - подключение raspberry к пионеру по uart1 и uart4
 
 ##### @ With Love for Geoscan Pioneer Community
