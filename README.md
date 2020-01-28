@@ -44,6 +44,6 @@ GND | GND
 
 ### Описание репозитория
 * [examples](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/examples) - примеры и объяснение передачи данных
-* [imgs](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/imgs) - подключение raspberry к пионеру по uart1 и uart4
+* [imgs](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/imgs) - подключение Raspberry Pi к Pioneer по UART1 и UART4
 
 ##### @ With Love for Geoscan Pioneer Community
