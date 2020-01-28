@@ -2,8 +2,7 @@ local uartNum = 1 --Номер UART
 local baudRate = 9600 --скорость передачи данных
 local stopBits = 1 
 local parity = Uart.PARITY_NONE 
-local uart = Uart.new(uartNum, baudRate, parity, stopBits) -- создание протокола обмена
-
+local uart = Uart.new(uartNum, baudRate, parity, stopBits) -- создание объекта UART
 
 local leds=Ledbar.new(4) -- объект LedBar, порт управления светодиодами на плате
 
