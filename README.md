@@ -48,3 +48,4 @@ GND | GND
 * [imgs](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/imgs) - подключение raspberry к пионеру по uart1 и uart4
 
 ##### @ With Love for Geoscan Pioneer Community
+###### © Created by Ilya Danilenko and Pavel Mironov, 2020
