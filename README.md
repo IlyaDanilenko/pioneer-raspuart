@@ -8,9 +8,8 @@ Geoscan Pioneer with Raspberry Pi Tutorial
 
 ```
 pip3 install pyserial
-
 ```
-:heavy_exclamation_mark: __ВАЖНО__: перед тем как начать использовать UART настройте пины на Raspberry ( [Гайд](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/) все пункты кроме "Disabling the Console" )
+:heavy_exclamation_mark: __ВАЖНО__: перед тем как начать использовать UART настройте пины на Raspberry Pi ( [Гайд](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/) все пункты кроме "Disabling the Console" )
 
 ### Подключение
 
@@ -45,7 +44,7 @@ GND | GND
 
 ### Описание репозитория
 * [examples](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/examples) - примеры и объяснение передачи данных
-* [imgs](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/imgs) - подключение raspberry к пионеру по uart1 и uart4
+* [imgs](https://github.com/IlyaDanilenko/pioneer-raspuart/tree/master/imgs) - подключение Raspberry Pi к Pioneer по UART1 и UART4
 
 ##### @ With Love for Geoscan Pioneer Community
 ###### © Created by Ilya Danilenko and Pavel Mironov, 2020

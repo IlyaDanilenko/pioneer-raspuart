@@ -12,7 +12,7 @@ local function color(r,g,b) -- функция заливки всех свето
     end
 end
 
-local sync = 0.06 -- задержка синхронизации
+local sync = 0.08 -- задержка синхронизации
 
 local inp = ''
 local function takeFunc()
