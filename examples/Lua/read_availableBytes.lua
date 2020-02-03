@@ -8,6 +8,7 @@ local uart = Uart.new(uartNum, baudRate, parity, stopBits) -- создание �
 local leds=Ledbar.new(4) -- объект LedBar, порт управления светодиодами на плате
 
 local function color(r,g,b) -- функция заливки всех светодиодов одним цветом
+    for i=0,3,1 do
         leds:set(i,r,g,b)
     end
 end
