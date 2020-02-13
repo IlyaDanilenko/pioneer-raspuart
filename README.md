@@ -9,7 +9,7 @@ Geoscan Pioneer with Raspberry Pi Tutorial
 ```
 pip3 install pyserial
 ```
-:heavy_exclamation_mark: __ВАЖНО__: перед тем как начать использовать UART настройте пины на Raspberry Pi ( [Гайд](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/) все пункты кроме "Disabling the Console" )
+:heavy_exclamation_mark: __ВАЖНО__: перед тем как начать использовать UART настройте пины на Raspberry Pi ( [Гайд](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/))
 
 ### Подключение
 
